@@ -89,6 +89,34 @@ li{
     color: var(--color-paragraph);
 }
 
-.expirience{
+.experience{
     background-color: var(--color-primary);
+    padding: 100px 0 96px;
 }
+
+.experience-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.experience-item{
+    display: flex;
+}
+
+.experience-item .experience-item__description p{
+    color: var(--color-white);
+}
+
+.experience-item .experience-item__description{
+    margin-left: 20px;
+}
+
+.experience-item .experience-item__description .experience-item__number{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
