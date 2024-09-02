@@ -95,7 +95,6 @@ li{
 }
 
 .experience-container{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -120,3 +119,26 @@ li{
     margin-bottom: 7px;
 }
 
+.process{
+    padding: 100px 0 102px 0;
+}
+
+.process__title {
+  color: var(--color-black);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 39px;
+}
+
+.process__description {
+  color: var(--color-paragraph);
+  text-align: center;
+}
+
+.process__video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
