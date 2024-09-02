@@ -114,6 +114,14 @@ li{
     padding: 100px 0 96px;
 }
 
+.experience .experience__title{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 39px;
+}
+
 .experience-container{
     display: flex;
     flex-wrap: wrap;
@@ -180,6 +188,7 @@ li{
 }
 
 .video{
+    border: 0;
     height: 600px;
     width: 100%;
 }
