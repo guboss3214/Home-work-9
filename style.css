@@ -52,6 +52,10 @@ li{
     gap: 15px;
 }
 
+.header nav ul li a:hover{
+    color: var(--color-primary);
+}
+
 .content__title {
     font-size: 3rem;
     font-weight: 500;
@@ -141,4 +145,20 @@ li{
     justify-content: center;
     align-items: center;
     margin-top: 56px;
+}
+
+.footer{
+    background-color: var(--color-primary);
+    padding: 48px;
+}
+
+.footer__name {
+    font-size: 1.3125rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--color-white);
+}
+.footer__copyright {
+    font-size: 0.8125rem;
+    color: var(--color-white);
 }
