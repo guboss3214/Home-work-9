@@ -196,7 +196,7 @@ li{
     width: 100%;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1121px) {
     .experience-container{
         justify-content: center;
     }
