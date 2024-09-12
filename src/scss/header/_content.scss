@@ -3,35 +3,35 @@
   align-items: flex-start;
   flex-direction: column;
   max-width: 540px;
-}
 
-.content__title {
-  margin-bottom: 35px;
+  &__title {
+    margin-bottom: 35px;
 
-  font-size: 3rem;
-  font-weight: 500;
-  line-height: 1.64;
-}
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.64;
+  }
 
-.content__description {
-  margin-bottom: 55px;
+  &__description {
+    margin-bottom: 55px;
 
-  color: #727272;
+    color: #727272;
 
-  line-height: 1.64;
-}
+    line-height: 1.64;
+  }
 
-.content__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  min-width: 225px;
-  min-height: 65px;
-  padding: 0.5em;
+    min-width: 225px;
+    min-height: 65px;
+    padding: 0.5em;
 
-  letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
 
-  color: #ffffff;
-  background-color: #34547a;
+    color: #ffffff;
+    background-color: #34547a;
+  }
 }

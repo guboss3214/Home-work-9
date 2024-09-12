@@ -1,19 +1,20 @@
+@use "../presets/" as *;
+
 .about{
     padding-top: 112px;
     padding-bottom: 90px;
     background-color: $color-light;
-}
 
+    &__title{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 39px;
+        text-align: center;
+    }
 
-.about__title{
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 39px;
-    text-align: center;
-}
-
-.about__description{
-    color: $color-paragraph;
-    line-height: 1.5;
-    text-align: center;
+    &__description{
+        color: $color-paragraph;
+        line-height: 1.5;
+        text-align: center;
+    }
 }

@@ -1,88 +1,78 @@
-@import "presets/variables";
-@import "presets/skin";
+@use "common";
 
-@import "common/normalize";
-@import "common/typography";
-@import "common/classes";
+@use "header";
 
-@import "header/header";
-@import "header/navbar";
-@import "header/content";
+@use "main";
 
-@import "main/about";
-@import "main/experience";
-@import "main/process";
-@import "main/video";
-
-@import "footer/footer";
+@use "footer";
 
 
-@media (max-width: 1121px) {
-    .experience-container{
-        justify-content: center;
-    }
-    .video{
-        height: calc($video-size-sm * 2.5);
-    }
-}
+// @media (max-width: 1121px) {
+//     .experience-container{
+//         justify-content: center;
+//     }
+//     .video{
+//         height: calc($video-size-sm * 2.5);
+//     }
+// }
 
-@media (max-width: 769px) {
+// @media (max-width: 769px) {
 
-    .header nav ul{
-        flex-wrap: wrap;
-    }
+//     .header nav ul{
+//         flex-wrap: wrap;
+//     }
     
-    .experience-container{
-        justify-content: center;
-    }
+//     .experience-container{
+//         justify-content: center;
+//     }
 
-    .video{
-        height: calc($video-size-sm * 2);
-    }
+//     .video{
+//         height: calc($video-size-sm * 2);
+//     }
     
-}
+// }
 
-@media (max-width: 426px) {
+// @media (max-width: 426px) {
     
-    .header nav ul{
-        flex-wrap: wrap;
-    }
-    .content__title{
-        font-size: 2.5rem;
-    }
-    .navbar__link{
-        padding: 5px 3px 5px 0;
-    }
-    .video{
-        height: calc($video-size-sm * 1.5);
-    }
-}
+//     .header nav ul{
+//         flex-wrap: wrap;
+//     }
+//     .content__title{
+//         font-size: 2.5rem;
+//     }
+//     .navbar__link{
+//         padding: 5px 3px 5px 0;
+//     }
+//     .video{
+//         height: calc($video-size-sm * 1.5);
+//     }
+// }
 
-@media (max-width: 376px) {
+// @media (max-width: 376px) {
 
-    .container{
-        width: min(100% - 100px, $container-primary);
-        margin-inline: auto;
-    }
+//     .container{
+//         width: min(100% - 100px, $container-primary);
+//         margin-inline: auto;
+//     }
     
-    .header nav ul{
-        flex-wrap: wrap;
-    }
+//     .header nav ul{
+//         flex-wrap: wrap;
+//     }
 
-    .content__title{
-        font-size: 2rem;
-    }
+//     .content__title{
+//         font-size: 2rem;
+//     }
 
-    .content__link{
-        padding: 1.3em 2.7em;
-    }
+//     .content__link{
+//         padding: 1.3em 2.7em;
+//     }
 
-    .experience-container{
-        gap: $gap;
-    }
+//     .experience-container{
+//         gap: $gap;
+//     }
     
-    .video{
-        height: $video-size-sm;
-    }
+//     .video{
+//         height: $video-size-sm;
+//     }
 
-}
+// }

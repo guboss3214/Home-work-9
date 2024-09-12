@@ -1,26 +1,27 @@
 .navbar {
   margin-bottom: 116px;
+  
+  &__list {
+    display: flex;
+
+    gap: 40px;
+  }
+
+  &__link {
+    padding: 10px 3px 10px 0;
+
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    &--custom {
+      color: #34547a;
+
+      font-weight: 500;
+    }
+  }
+
+  &__link:hover {
+    color: #34547a;
+  }
+
 }
 
-.navbar__list {
-  display: flex;
-
-  gap: 40px;
-}
-
-.navbar__link {
-  padding: 10px 3px 10px 0;
-
-  letter-spacing: 0.1em;
-  letter-spacing: 0.1em;
-}
-
-.navbar__link:hover {
-  color: #34547a;
-}
-
-.navbar__link--custom {
-  color: #34547a;
-
-  font-weight: 500;
-}
