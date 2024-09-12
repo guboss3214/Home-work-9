@@ -1,8 +1,9 @@
 @use '../presets/' as *;
+@use '../mixins/' as *;
 
 .container{
-    width: min(100% - $gap-lg, $container-primary);
-    margin-inline: auto;
+    @include container;
+
     &--sm{
         width: min(100% - $gap-lg, 540px);
     }

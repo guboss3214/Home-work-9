@@ -2,4 +2,14 @@
   padding: 79px 0 141px 0;
 
   background-color: #eeeff1;
+  @media (max-width: 426px) {
+    .navbar__link{
+      padding: 5px 3px 5px 0;
+    }
+  }
+  @media (max-width: 376px) {
+    .header nav ul{
+      flex-wrap: wrap;
+    }
+  }
 }

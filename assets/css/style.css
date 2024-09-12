@@ -4,6 +4,7 @@
 
   margin-inline: auto;
 }
+
 .container--sm {
   width: min(100% - 40px, 540px);
 }
@@ -226,28 +227,33 @@ table {
 
   background-color: #eeeff1;
 }
-
 .navbar {
   margin-bottom: 116px;
 }
+
 .navbar__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 
   gap: 40px;
 }
+
 .navbar__link {
   padding: 10px 3px 10px 0;
 
   letter-spacing: 0.1em;
   letter-spacing: 0.1em;
 }
+
 .navbar__link--custom {
   color: #34547a;
 
   font-weight: 500;
 }
+
 .navbar__link:hover {
   color: #34547a;
 }
@@ -266,6 +272,7 @@ table {
 
   max-width: 540px;
 }
+
 .content__title {
   margin-bottom: 35px;
 
@@ -273,6 +280,7 @@ table {
   font-weight: 500;
   line-height: 1.64;
 }
+
 .content__description {
   margin-bottom: 55px;
 
@@ -280,6 +288,7 @@ table {
 
   line-height: 1.64;
 }
+
 .content__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -307,6 +316,7 @@ table {
 
   background-color: #f9f9f9;
 }
+
 .about__title {
   margin-bottom: 39px;
 
@@ -315,6 +325,7 @@ table {
   font-size: 2rem;
   font-weight: 500;
 }
+
 .about__description {
   text-align: center;
 
@@ -328,6 +339,7 @@ table {
 
   background-color: #34547a;
 }
+
 .experience__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -343,6 +355,7 @@ table {
 
   gap: 45px;
 }
+
 .experience-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -350,9 +363,11 @@ table {
 
   gap: 20px;
 }
+
 .experience-item__description p {
   color: #ffffff;
 }
+
 .experience-item__description {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -364,10 +379,12 @@ table {
 
   gap: 7px;
 }
+
 .experience-item__number {
   font-size: 1.2rem;
   font-weight: 500;
 }
+
 .experience-item__image {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
@@ -379,6 +396,7 @@ table {
 
   background-color: #eeeff1;
 }
+
 .process__title {
   margin-bottom: 39px;
 
@@ -389,6 +407,7 @@ table {
   font-size: 2rem;
   font-weight: 500;
 }
+
 .process__description {
   margin-bottom: 57px;
 
@@ -398,6 +417,7 @@ table {
 
   line-height: 1.64;
 }
+
 .process__video {
   padding-bottom: 100px;
 }
@@ -408,12 +428,12 @@ table {
 
   border: 0;
 }
-
 .footer {
   padding: 48px;
 
   background-color: #34547a;
 }
+
 .footer__name {
   margin-bottom: 20px;
 
@@ -422,8 +442,25 @@ table {
   font-size: 1.3125rem;
   font-weight: 500;
 }
+
 .footer__copyright {
   color: #ffffff;
 
   font-size: 0.8125rem;
+}
+
+@media (max-width: 426px) {
+  .header .navbar__link {
+    padding: 5px 3px 5px 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .header .header nav ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .video .video {
+    height: 175px;
+  }
 }
