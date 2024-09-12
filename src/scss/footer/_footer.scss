@@ -1,0 +1,17 @@
+@use "../presets/" as *;
+
+.footer{
+    background-color: $color-primary;
+    padding: 48px;
+    &__name {
+        font-size: 1.3125rem;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: $color-white;
+    }
+    &__copyright {
+        font-size: 0.8125rem;
+        color: $color-white;
+    }   
+
+}
